@@ -2,7 +2,7 @@ export const projectsList = [
   {
     name: 'IndeKedIn',
     description:
-      'My first time developing a Dynamic Database-Driven Web App with Python, Flask, and MySQL. Its fumctionallity is a basic Job searching web app that allows the user to conect with the employer',
+      'My first time developing a Dynamic Database-Driven Web App with Python, Flask, and MySQL. Its functionallity is a basic Job searching web app that allows the user to conect with the employer',
     image: 'IndeKedIn.png',
     codeUrl: 'https://github.com/samuelRodriguezA/IndeKedIn-careers-website/',
     demoUrl: 'https://indekedin.onrender.com/',

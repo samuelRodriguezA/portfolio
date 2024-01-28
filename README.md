@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Portfolio Site
+Welcome to my personal portfolio site! This project showcases my work as a web developer, featuring various projects I've created for fun ^^.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check out the live demo [here](https://nlpz-portfolio.vercel.app/).
 
-## Available Scripts
+<!--
+<p align="center">
+<img src="" alt="portfolio-site">
+</p>
+-->
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Introduction](#introduction)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Introduction
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+As a passionate web developer, I have embarked on numerous projects that highlight my skills, creativity, and dedication to crafting immersive web experiences. This personal portfolio site serves as a gateway to explore my work and gain insights into my coding capabilities.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The following technologies were used in the development of this portfolio site:
 
-### `npm run build`
+- **Javascript:** The core programming language for building interactive and dynamic components.
+- **React:** A popular frontend library for building reusable UI components and managing application state efficiently.
+- **Scss:** A powerful CSS preprocessor that simplifies styling and allows for better organization and maintainability.
+- **gsap:** GreenSock Animation Platform - a JavaScript library for creating high-performance animations.
+- **framer-motion:** A library for creating smooth animations and gestures in React applications.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Project Showcase:** A collection of my web development projects, each with a detailed description and live demo link.
+- **Interactive Design:** Engaging animations and transitions created using gsap and framer-motion to enhance the user experience.
+- **Responsive:** The site is designed to adapt seamlessly to various screen sizes and devices.
+- **Easy Navigation:** An intuitive navigation menu that enables users to explore different sections effortlessly.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+To set the project locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository: `git clone https://github.com/noel-lopez/portfolio.git`
+2. Change into the project directory: `cd portfolio`
+3. Install the dependencies: `npm install`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run the portfolio site locally, use the following command:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm run dev
+```
 
-## Learn More
+This will start a development server, and you can access the site at [http://localhost:5173](http://localhost:5173).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+You can start editing the page by modifying `src/App.jsx`. The page auto-updates as you edit the file.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+I appreciate all kind of contributions! If you find any issues or have suggestions for improvement, please feel free to open a new issue or submit a pull request.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
 
-### Analyzing the Bundle Size
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This is a [React](https://reactjs.org) project bootstrapped with [`create-vite`](https://github.com/vitejs/vite/tree/main/packages/create-vite).
 
-### Making a Progressive Web App
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Feel free to get in touch with me if you have any questions or just want to say hello! You can reach me at:
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Email:** nlopez.publi@gmail.com
+- **LinkedIn:** [Noel Lopez](https://www.linkedin.com/in/nlopezmo/)
+- **Twitter:** [@noeldev_](https://twitter.com/noeldev_)

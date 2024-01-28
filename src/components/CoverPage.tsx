@@ -1,22 +1,25 @@
-import React from 'react';
 import { MdKeyboardArrowDown as ArrowDownIcon } from 'react-icons/md';
 import Header from './Header';
 
-function CoverPage({ scrollToProjects }) {
+interface Props {
+  scrollToProjects: () => void;
+}
+
+function CoverPage({ scrollToProjects }: Props): JSX.Element {
   return (
-    <div className='coverPage main'>
-      <Header />
+    <div className='after-animation'>
+      <Header scrollToProjects={scrollToProjects} />
       <main>
         <div className='cta'>
           <h1 className='title'>
             I create <span className='playful'>playful</span> experiences.
           </h1>
           <div className='pfp-container'>
-            <img src='/images/cat.png' alt='My pfp' className='pfp-image' />
-            
+            <img src='/images/pfp.webp' alt='My pfp' className='pfp-image' />
+            <img src='/images/pfp-color.webp' alt='My pfp' className='pfp-image color-image' />
           </div>
         </div>
-        <h3 className='job-title'>Samuel Rodriguez Armesto / Software Developer</h3>
+        <h3 className='job-title'>Samuel Rodriguez / Software Developer</h3>
         <button className='scroll-indicator' onClick={scrollToProjects}>
           <span>Projects</span>
           <ArrowDownIcon />

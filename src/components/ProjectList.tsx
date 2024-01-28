@@ -1,26 +1,32 @@
-import React from 'react';
-import { projectsList } from '../data/project';
-import  imageMap  from '../projectImages/projectImage';
+import { motion } from 'framer-motion'
+import { ProjectType, projectsList } from '../data/projects'
 
-function ProjectList() {
+function ProjectList (): JSX.Element {
   return (
     <div className='projects-container'>
       {projectsList.map((project, i) => (
         <ProjectItem key={i} project={project} />
       ))}
     </div>
-  );
+  )
 }
 
-function ProjectItem({ project }) {
-  const { name, description, image, codeUrl, demoUrl, tools } = project;
+function ProjectItem ({ project }: { project: ProjectType }): JSX.Element {
+  const {
+    name,
+    description,
+    image,
+    codeUrl,
+    demoUrl,
+    tools
+  } = project
 
   return (
     <div className='project' id={name}>
       <div className='project-container'>
         <a href={demoUrl} target='_blank' rel='noopener noreferrer'>
           <picture>
-            <img src={imageMap[image]} alt={name} className='project-image' />
+            <img src={`/projectImages/${image}`} alt={name} className='project-image' />
           </picture>
         </a>
         <div className='project-info'>
@@ -36,34 +42,38 @@ function ProjectItem({ project }) {
               <li key={i}>{tool}</li>
             ))}
           </ul>
-          <div className='project-btns'>
-            {demoUrl != null && (
-              <a
+          <motion.div className='project-btns'>
+            {(demoUrl != null) && (
+              <motion.a
                 href={demoUrl}
                 target='_blank'
                 rel='noopener noreferrer'
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
                 title={`Open ${name} site`}
                 className='project-btn'
               >
                 Open Site
-              </a>
+              </motion.a>
             )}
-            {codeUrl != null && (
-              <a
+            {(codeUrl != null) && (
+              <motion.a
                 href={codeUrl}
                 target='_blank'
                 rel='noopener noreferrer'
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
                 title={`View ${name} code`}
                 className='project-btn'
               >
                 View Code
-              </a>
+              </motion.a>
             )}
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default ProjectList;
+export default ProjectList

@@ -1,7 +1,6 @@
-import React from 'react';
-import { ResumeLink, GithubLink, LinkedinLink, MailLink } from './SocialLinks';
+import { ResumeLink, GithubLink, LinkedinLink, MailLink } from './SocialLinks'
 
-function Footer() {
+function Footer (): JSX.Element {
   return (
     <footer>
       <h2>Connect with me</h2>
@@ -20,7 +19,7 @@ function Footer() {
         </li>
       </ul>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

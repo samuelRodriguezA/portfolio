@@ -12,8 +12,8 @@ export const projectsList: ProjectType[] = [
     name: 'AI Image Generation Web App',
     description: 'An AI system that can create realistic images and art from a description in natural language. \n It is a Full Stack MERN AI Image Generation App.',
     image: 'DallE.webp',
-    codeUrl: '',
-    demoUrl: '',
+    codeUrl: 'https://github.com/samuelRodriguezA/SRA-AI-Image-Generator',
+    demoUrl: 'https://sra-ai-image-generator.vercel.app/',
     tools: ['MERN', 'React.js', 'Express.js', 'MongoDB', 'Nodemon', 'OpenAI', 'Cloudinary', 'TailwindCSS']
   },
   {

@@ -29,8 +29,8 @@ export const projectsList: ProjectType[] = [
     name: 'Personal Portfolio Website',
     description: 'My personal blog where I share some of my coding knowledge and experience.',
     image: 'Portfolio.webp',
-    codeUrl: 'https://github.com/noel-lopez/blog',
-    demoUrl: 'https://nlpz-blog.vercel.app',
+    codeUrl: 'https://github.com/samuelRodriguezA/portfolio',
+    demoUrl: 'https://sra-portfolio.vercel.app/',
     tools: ['TypeScript', 'NextJS', 'Tailwind CSS', 'MDX','SCSS','Framer Motion','Gsap']
   },
   {

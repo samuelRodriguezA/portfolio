@@ -21,8 +21,8 @@ export const projectsList: ProjectType[] = [
     description:
       'A web app that helps the user create their own style. Pick colors, add logos, and try AI designs to make your virtual outfits unique. \nBuilt using React.js, Three.js, and OpenAI to show the usage of a 3D world with AI',
     image: 'Shirts.webp',
-    codeUrl: '',
-    demoUrl: '',
+    codeUrl: 'https://github.com/samuelRodriguezA/SRA_3D_AI_Store',
+    demoUrl: 'https://sra-aistore.vercel.app/',
     tools: ['React.js', 'Three.js', 'React Three Fiber', 'React Three Drei','Vite','TailwindCSS','Node.js','Express.js','OpenAI','Framer Motion','Valtio']
   },
   {

@@ -43,12 +43,12 @@ export const projectsList: ProjectType[] = [
     tools: ['Flask', 'Replit', 'HTML','CSS','Bootstrap','Render','Git']
   },
   {
-    name: 'Modern Informative Web about GPT-4',
+    name: 'Modern Informative Web about GPT-3',
     description:
-      'One of my first projects testing css and building a simple website',
+      'One of my first projects testing css and building a simple website, followed a Figma design and used different styling solutions to archive the result',
     image: 'Gpt3.webp',
     codeUrl: 'https://github.com/samuelRodriguezA/WhatIsGpt3',
-    demoUrl: 'https://what-is-gpt3.vercel.app/',
+    demoUrl: 'https://sra-gpt3.vercel.app/',
     tools: ['TypeScript', 'Next', 'UnoCSS', 'Vercel', 'Git']
   }
 ]
